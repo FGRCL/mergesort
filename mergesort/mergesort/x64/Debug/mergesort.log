@@ -1,0 +1,39 @@
+﻿  regular.cpp
+  threaded.cpp
+C:\Users\François\git\mergesort\mergesort\mergesort\regular.cpp(57,17): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+C:\Users\François\git\mergesort\mergesort\mergesort\regular.cpp(74,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(58,17): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+  Generating Code...
+C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27): error C2661: 'std::thread::thread': no overloaded function takes 5 arguments
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\thread(92,28):
+      could be 'std::thread::thread(_Fn &&,_Args ...)'
+          C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+          Failed to specialize function template 'std::thread::thread(_Fn &&,_Args ...)'
+              C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+              With the following template arguments:
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+                  '_Fn=void (__cdecl &)(int [],int [],int,int)'
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+                  '_Args={int &[], int &[], unknown-type &, unknown-type &}'
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+                  '__formal=0'
+      C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(59,27):
+      while trying to match the argument list '(overloaded-function, int [], int [], unknown-type, unknown-type)'
+  
+C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28): error C2661: 'std::thread::thread': no overloaded function takes 5 arguments
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\thread(92,28):
+      could be 'std::thread::thread(_Fn &&,_Args ...)'
+          C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+          Failed to specialize function template 'std::thread::thread(_Fn &&,_Args ...)'
+              C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+              With the following template arguments:
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+                  '_Fn=void (__cdecl &)(int [],int [],int,int)'
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+                  '_Args={int &[], int &[], unknown-type &, unknown-type &}'
+                  C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+                  '__formal=0'
+      C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(60,28):
+      while trying to match the argument list '(overloaded-function, int [], int [], unknown-type, unknown-type)'
+  
+C:\Users\François\git\mergesort\mergesort\mergesort\threaded.cpp(79,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
